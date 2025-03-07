@@ -4,6 +4,11 @@ This project uses huggingface's `trl` library for Supervised Fine-Tuning (SFT) a
 
 ## 1 DEMO
 This is a demonstration video of a multi round dialogue website built using weights trained with SFT and DPO.
+
+<video src="https://github.com/FugueZ/Qwen2.5-0.5B-SFT-DPO/blob/main/ref/demonstration.gif" controls width="100%"></video>
+
+
+
 ![demonstration](ref/demonstration.gif)
 
 ## 2 Requirements
