@@ -1,6 +1,7 @@
 # Qwen2.5-0.5B SFT+DPO
 
 This project uses huggingface's `trl` library for Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO) of the `Qwen2.5-0.5B` pre-trained checkpoint. Both SFT and DPO use the `LoRA` method provided by the `PEFT` library. Finally, a multi-round dialog website was built using `Gradio`.
+![demonstration](ref/demonstration.gif)
 
 ## 1 DEMO
 This is a demonstration video of a multi round dialogue website built using weights trained with SFT and DPO.
