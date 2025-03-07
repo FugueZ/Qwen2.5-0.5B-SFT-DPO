@@ -47,4 +47,4 @@ The python version is 3.11.5. The GPU is Tesla V100-DGXS-32GB*4
 
 - Load the weights of Qwen2.5-0.5B after SFT and DPO
 - Define the response function for multiple rounds of dialogue
-- The multi round dialogue website is shown in the [GIF](#1-demo)
+- The multi round dialogue website is shown in the [GIF](#demo)
