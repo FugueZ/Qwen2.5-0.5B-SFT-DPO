@@ -17,7 +17,7 @@ transformers==4.49.0
 The python version is 3.11.5. The GPU is Tesla V100-DGXS-32GB*4
 
 ## 2 Supervised Fine-Tuning
-t 
+
 - Use Lora's fine-tuning method
 - The train dataset is `trl-lib/Capybara` which can be found in huggingface
 - epoch=3
