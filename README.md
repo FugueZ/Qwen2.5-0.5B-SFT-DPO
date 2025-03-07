@@ -2,9 +2,11 @@
 
 This project uses huggingface's `trl` library for Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO) of the `Qwen2.5-0.5B` pre-trained checkpoint. Both SFT and DPO use the `LoRA` method provided by the `PEFT` library. Finally, a multi-round dialog website was built using `Gradio`.
 
+## 1 DEMO
+This is a demonstration video of a multi round dialogue website built using weights trained with SFT and DPO.
 ![demonstration](ref/demonstration.gif)
 
-## 1 Requirements
+## 2 Requirements
 
 ```
 trl==0.15.2
@@ -16,7 +18,7 @@ transformers==4.49.0
 
 The python version is 3.11.5. The GPU is Tesla V100-DGXS-32GB*4
 
-## 2 Supervised Fine-Tuning
+## 3 Supervised Fine-Tuning
 
 - Use Lora's fine-tuning method
 - The train dataset is `trl-lib/Capybara` which can be found in huggingface
@@ -29,7 +31,7 @@ The python version is 3.11.5. The GPU is Tesla V100-DGXS-32GB*4
 
 ![sft](ref/sft.jpg)
 
-## 3 Direct Preference Optimization
+## 4 Direct Preference Optimization
 
 - Use Lora's fine-tuning method
 - The train dataset is `trl-lib/ultrafeedback_binarized` which can be found in huggingface
@@ -41,8 +43,8 @@ The python version is 3.11.5. The GPU is Tesla V100-DGXS-32GB*4
 
 ![dpo](ref/dpo.jpg)
 
-### 4 Build a Multi-Round Dialogue Website
+### 5 Build a Multi-Round Dialogue Website
 
 - Load the weights of Qwen2.5-0.5B after SFT and DPO
 - Define the response function for multiple rounds of dialogue
-- The multi round dialogue website is shown in the [GIF](# Qwen2.5-0.5B SFT+DPO)
+- The multi round dialogue website is shown in the [GIF](#1-demo)
