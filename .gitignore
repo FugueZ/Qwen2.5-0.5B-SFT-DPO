@@ -2,5 +2,3 @@ result/Qwen2.5-0.5B-DPO/*checkpoint*
 result/Qwen2.5-0.5B-DPO/runs/*
 result/Qwen2.5-0.5B-SFT/*checkpoint*
 result/Qwen2.5-0.5B-SFT/runs/*
-
-.gitignore
